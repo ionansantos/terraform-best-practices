@@ -4,6 +4,6 @@ variable "aws_region" {
 
   validation {
     condition     = contains(["us-east-1"], var.aws_region)
-    error_message = "Environment deve ser dev, staging ou prod"
+    error_message = "A região deve ser us-east-1 ou sa-east-1."
   }
 }
