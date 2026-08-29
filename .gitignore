@@ -1,0 +1,37 @@
+# Diretório local criado pelo terraform init
+.terraform/
+
+# Arquivos de estado local
+*.tfstate
+*.tfstate.*
+
+# Planos salvos
+*.tfplan
+
+# Arquivos que podem conter valores sensíveis
+*.tfvars
+*.tfvars.json
+
+# Permitir somente o arquivo de exemplo
+!terraform.tfvars.example
+
+# Logs de falha
+crash.log
+crash.*.log
+
+# Arquivos de override locais
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Configuração local do Terraform CLI
+.terraformrc
+terraform.rc
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Arquivos do macOS
+.DS_Store
